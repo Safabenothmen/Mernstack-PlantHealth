@@ -1,0 +1,28 @@
+
+.section-header .section-title {
+  font-weight: bold;
+  color: #4e4e4e;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.section-header .section-title span {
+  color: #248eff;
+}
+.section-header .section-title:after {
+  content: "";
+  content: "";
+  display: block;
+  height: 3px;
+  width: 70px;
+  background: #248eff;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section-header .section-subtitle {
+  max-width: 700px;
+  color: #6f6f6f;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=contact.css.map */
