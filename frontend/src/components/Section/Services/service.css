@@ -1,0 +1,441 @@
+.h-yazi-ortalama {
+  text-align: center;
+}
+
+@media only screen and (max-width: 40em) {
+  .h-yazi-ortalama {
+    text-align: center;
+    margin-left: 0;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .h-yazi-ortalama {
+    text-align: center;
+    margin-left: 0;
+    padding: 3rem;
+  }
+}
+.h-yazi-margin-orta-3 {
+  margin-bottom: 1rem !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .h-yazi-margin-orta-3 {
+    margin-bottom: 3rem !important;
+    text-align: center;
+  }
+}
+/* PAGE HEADER */
+.page-header {
+  width: 100%;
+  max-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  background-size: cover !important;
+}
+
+.page-header .container {
+  position: relative;
+  z-index: 1;
+}
+
+.page-header .container h2 {
+  width: 100%;
+  display: block;
+  font-size: 55px;
+  margin-bottom: 0;
+  line-height: 6rem;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.page-header .container p {
+  width: 100%;
+  display: block;
+  margin-bottom: 50px;
+  font-size: 20px;
+  width: 100%;
+  margin-top: -14px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.bosluk3 {
+  margin-top: 2rem;
+}
+
+.container {
+  padding: 0rem;
+  margin: 0 auto;
+}
+
+.serviceb-alani {
+  padding: 3rem 0 0rem;
+  background: center no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .serviceb-alani {
+    padding: 1rem 0 0rem;
+  }
+}
+.h2-baslik-hizmetler-2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  display: inline-block;
+  color: #6d8b33;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.h2-baslik-hizmetler-2__paragraf {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.h2-baslik-hizmetler-2__paragraf:not(:last-child) {
+  margin-bottom: -1rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .h2-baslik-hizmetler-2__paragraf:not(:last-child) {
+    margin-bottom: -14rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .h2-baslik-hizmetler-2__paragraf {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .h2-baslik-hizmetler-2 {
+    font-size: 5rem;
+    margin-top: 6rem;
+  }
+}
+.h2-baslik-hizmetler-3 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  display: inline-block;
+  background-image: linear-gradient(to right, #ffb902, #6d8b33);
+  color: transparent;
+  letter-spacing: 0.1rem;
+}
+
+.h2-baslik-hizmetler-3__paragraf {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .h2-baslik-hizmetler-3__paragraf:not(:last-child) {
+    margin-bottom: -5rem;
+    text-align: center;
+    align-items: center;
+    clear: both;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .h2-baslik-hizmetler-3__paragraf {
+    font-size: 3.5rem;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .h2-baslik-hizmetler-3 {
+    font-size: 5rem;
+  }
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.component-systemTabs .tab-content {
+  display: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.component-systemTabs .tab-content.current {
+  display: block;
+}
+
+.component-systemTabs .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.component-systemTabs .cards .card {
+  width: 454px;
+  height: 507px;
+  margin: 5px;
+  position: relative;
+}
+
+.component-systemTabs .cards .card img {
+  height: 100%;
+  width: 100%;
+  max-width: 454px;
+  max-height: 507px;
+}
+
+.component-systemTabs .cards .card .cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  border: 0.7rem solid transparent;
+  border-image-slice: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.component-systemTabs .cards .card .cardContent h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.component-systemTabs .cards .card .cardContent button {
+  border: 0;
+  background-color: #000000;
+  padding: 7px 10px;
+  width: 100px;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.component-systemTabs .cards .card .cardContent button:hover {
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  font-size: 1.25rem;
+}
+
+.component-systemTabs .cards .card .cardContent:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.component-systemTabs .cards .card .cardContent:hover button {
+  opacity: 1;
+}
+
+.component-systemTabs .tab-content {
+  display: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.component-systemTabs .tab-content.current {
+  display: block;
+}
+
+.component-systemTabs .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.component-systemTabs .cards .card {
+  width: 286px;
+  height: 100%;
+  margin: 5px;
+  position: relative;
+  border-radius: 3rem;
+}
+
+.component-systemTabs .cards .card img {
+  height: 100%;
+  width: 100%;
+  max-width: 286px;
+  max-height: 499px;
+  border-radius: 3rem;
+  transform: scale(1);
+}
+
+.component-systemTabs .cards .card:hover img {
+  transform: scale(1.01);
+}
+
+.component-systemTabs .cards .card .cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  border: 0.7rem solid transparent;
+  border-image-slice: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 3rem;
+}
+
+.component-systemTabs .cards .card .cardContent h2 {
+  color: #6d8b33;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 7px;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 25px;
+}
+
+.component-systemTabs .cards .card .cardContent button {
+  border: 0;
+  background-color: #f3479d;
+  padding: 7px 10px;
+  width: 100px;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.component-systemTabs .cards .card .cardContent button:hover {
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  font-size: 1.25rem;
+}
+
+.component-systemTabs .cards .card .cardContent:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.component-systemTabs .cards .card .cardContent:hover button {
+  opacity: 1;
+}
+
+/* REVEAL EFFECT */
+.wow.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  transition-delay: 0.2s;
+}
+
+/* CAROUSEL CLASSES */
+.carousel-classes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 135px;
+}
+
+/* RESPONSIVE MOBILE */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .component-systemTabs .cards .card .cardContent h2 {
+    color: #6d8b33;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -1rem;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    background: #ffffff;
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 767px) and (max-width: 850px) {
+  .component-systemTabs .cards .card .cardContent h2 {
+    color: #6d8b33;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -1rem;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    background: #ffffff;
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 1180px) and (max-width: 1200px) {
+  .component-systemTabs .cards .card .cardContent h2 {
+    color: #6d8b33;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -1rem;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    background: #ffffff;
+    border-radius: 1rem;
+  }
+}/*# sourceMappingURL=service.css.map */
