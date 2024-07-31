@@ -1,0 +1,83 @@
+@charset "UTF-8";
+:root {
+  --PrimaryColor: hsl(94,59%,35%);
+  --HoverColor:#bdf094;
+  --paleGreen:hsl(96,75%,89%);
+  --whiteColor:hsl(0,0%,100%);
+  --blackColor:hsl(0,0%,18%);
+  --textColor:hsl(240,1%,48%);
+  --bgColor:hsl(240,10%,94%);
+  --greyText:rgb(190,190,190);
+  --inputColor:hsl(33,12%,97%);
+  --biggestFontSize:2.5rem;
+  --h1FontSize:1.5rem;
+  --h2FontSize:1.25rem;
+  --h3FontSize:1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+
+
+.cardSection {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.cardSection .rightCard {
+  position: relative;
+  flex-basis: 90%;
+  height: 390px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.cardSection .rightCard .videoDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.cardSection .rightCard .videoDiv video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cardSection .rightCard h1, .cardSection .rightCard p {
+  z-index: 100;
+}
+
+
+  
+
+.cardSection .rightCard h1 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-size: var(--h1FontSize);
+  color: var(--whiteColor);
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(219, 224, 220, 0.695);
+}
+
+.cardSection .rightCard p {
+  padding: 1rem;
+  color: var(--paleGreen);
+  font-weight: 500;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=home.css.map */
