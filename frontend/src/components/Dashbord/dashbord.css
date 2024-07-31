@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.body {
+  flex-grow: 1; /* Permet au corps de prendre tout l'espace disponible restant */
+  padding: 20px; /* Espacement intérieur du corps */
+}
+
+.sidebar {
+  width: 20%; /* Largeur de la barre latérale */
+  background-color: #f0f0f0; /* Couleur de fond de la barre latérale */
+  padding: 20px; /* Espacement intérieur de la barre latérale */
+  position: fixed; /* Position fixe pour que la barre latérale reste à droite de la page */
+  top: 0; /* Position en haut de la page */
+  right: 0; /* Position à droite de la page */
+  bottom: 0; /* Position en bas de la page */
+}
+
+.body {
+  flex-grow: 1;
+  /* Permet au corps de prendre tout l'espace disponible restant */
+}/*# sourceMappingURL=dashbord.css.map */
