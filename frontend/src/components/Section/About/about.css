@@ -1,0 +1,56 @@
+.container {
+  background-color: white;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.galeri1 {
+  animation: rotate 10s linear infinite;
+  margin-left: 50px;
+  padding-top: 1px;
+}
+
+.galeri2 {
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 440px;
+  margin-left: -450px;
+  height: 440px;
+  z-index: 1;
+}
+
+.us {
+  margin-top: 30px;
+  float: left;
+  padding-top: 1px;
+  width: 50%;
+  margin-left: 150px; /* Ajouter une marge gauche de 20px */
+}
+
+.about-title {
+  color: #6d8b33;
+}
+
+.paragraf {
+  color: black;
+  text-align: justify;
+}
+
+.imagerotate {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.imagerotate:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=about.css.map */
