@@ -1,0 +1,95 @@
+.Topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* added */
+}
+
+.container-fluid .logo {
+  display: flex;
+  flex-direction: column; /* Add this line to change the layout to a column */
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.container-fluid .logo img {
+  height: 55px;
+  margin-bottom: 10px; /* Add this line to create space between the image and text */
+}
+
+.container-fluid .logo-text {
+  font-size: 15px;
+}
+
+.top-links {
+  display: flex;
+  justify-content: flex-start; /* changed from flex-end */
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-links li {
+  color: green;
+  font-size: 20px;
+  padding: 0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.top-links li a {
+  color: green;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.top-links li a:hover {
+  background-color: greenyellow;
+  color: white;
+}
+
+.top-links li .active-link {
+  color: blue;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+  }
+  .top-links {
+    display: none;
+  }
+  .top-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    left: 0;
+    top: 10% transition all 0.5s ease-in-out;
+    width: 100%;
+    background-color: white;
+  }
+}/*# sourceMappingURL=topbar.css.map */
