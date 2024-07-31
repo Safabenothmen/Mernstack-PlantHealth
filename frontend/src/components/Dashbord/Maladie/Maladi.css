@@ -1,0 +1,35 @@
+.wrapper h1.page-title {
+    color: #6d8b33;
+    position: center;
+    margin-left: 5%;
+    
+  }
+  .wrapper {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* .image-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+   */
+  
+  
+  /* input[type='file'] {
+    margin-bottom: 10px;
+  }
+  
+  .selected-image img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 10px;
+  } */
+
+  
