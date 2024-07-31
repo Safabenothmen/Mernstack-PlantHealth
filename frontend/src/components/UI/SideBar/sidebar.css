@@ -1,0 +1,143 @@
+@charset "UTF-8";
+#sidebar {
+  background: white;
+  grid-area: sidebar;
+  overflow-y: auto;
+  padding: 25px;
+  transition: all 0.5s;
+  box-shadow: 1px 0px 4px var(--greyText);
+  width: 20%;
+  height: 100vh;
+  gap: 2rem;
+  /* overflow: auto; */
+  position: fixed; /* Position fixe pour que la barre latérale reste à droite de la page */
+  top: 0; /* Position en haut de la page */
+  left: 0; /* Position à droite de la page */
+  bottom: 0; /* Position en bas de la page */
+}
+
+.green-line {
+  border:green;
+  border-top: 4px solid rgba(9, 115, 9, 0.956);
+  color: darkgreen;
+  height: 0;
+  background-color: darkgreen;
+
+}
+
+
+
+.sidebar__icon {
+  margin-right: 12px;
+}
+
+.sidebar__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: green;
+  margin-bottom: 30px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 45px;
+  margin-left : 50px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(1, 40, 8, 0.49);
+  margin-left: 10px;
+  /* color: #E85B6B; */
+}
+
+.sidebar__img {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__title > div > img {
+  width: 75px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sidebar__title > div > h1 {
+  font-size: 18px;
+  display: inline;
+}
+
+.sidebar__title > i {
+  font-size: 18px;
+  display: none;
+}
+
+.sidebar__menu > h2 {
+  color: #3ea175;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.sidebar__link {
+  color: #f3f4f6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.active_menu_link {
+  background: rgba(62, 161, 117, 0.3);
+  color: #3ea175;
+}
+
+.active_menu_link a {
+  color: #3ea175 !important;
+}
+
+.sidebar__link > a {
+  text-decoration: none;
+  color: #a5aaad;
+  font-weight: 700;
+}
+
+.sidebar__link > i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.sidebar__logout {
+  margin-top: 20px;
+  padding: 10px;
+  color: #e65061;
+}
+
+.sidebar__logout > a {
+  text-decoration: none;
+  color: #e65061;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sidebar__logout > i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 978px) {
+  .sidebar_responsive {
+    display: inline !important;
+    z-index: 9999 !important;
+    left: 0 !important;
+    position: absolute;
+  }
+  #sidebar {
+    display: none;
+  }
+  .sidebar__title > i {
+    display: inline;
+  }
+}/*# sourceMappingURL=sidebar.css.map */
