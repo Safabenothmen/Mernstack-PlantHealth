@@ -1,0 +1,76 @@
+/* styles.css */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+  }
+  .deleteIcon {
+    color: 'white';
+   
+    cursor: 'pointer';
+    margin-right:  20;
+  }
+  .event-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .event-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-person {
+    font-size: 12px;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  .event-date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .event-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .event-action-button {
+    background-color: #555;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .event-action-button:hover {
+    background-color: #333;
+  }
+  
