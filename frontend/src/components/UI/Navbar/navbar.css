@@ -1,0 +1,295 @@
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.container-fluid {
+  z-index: 5;
+  padding: 0;
+  max-height: 85%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  left: 0;
+  top: 0px;
+  position: fixed;
+  background: white;
+}
+
+/* .container-fluid .logo {
+  display: flex;
+  flex-direction: column; /* Add this line to change the layout to a column 
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+} */
+/* 
+.container-fluid .logo img {
+  height: 55px;
+  margin-bottom: 10px; /* Add this line to create space between the image and text 
+} */
+
+/* .container-fluid .logo-text {
+  font-size: 15px;
+} */
+.site-menu .menueffect{
+  margin-left: 60px;
+}
+.titre {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 45px;
+  margin-left : 50px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(1, 40, 8, 0.49);
+}
+
+
+
+
+
+@media only screen and (max-width: 56.25em) {
+  .container-fluid .logo a img {
+    margin-left: 0;
+  }
+}
+.container-fluid .site-menu {
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.container-fluid .site-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid .site-menu ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 18px;
+  list-style: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.container-fluid .site-menu ul li a {
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
+  color: #5f7e26;
+}
+
+.container-fluid .site-menu ul li a:hover {
+  text-decoration: none;
+  color: #6d8b33;
+}
+
+.container-fluid .navbar-button {
+  padding-top: 33px;
+  margin-right: 50px;
+}
+
+.container-fluid .navbar-button a {
+  height: 40px;
+  margin-right: 15px;
+  line-height: 40px;
+  display: inline-block;
+  background: #6d8b33;
+  color: white;
+  padding: 0 30px;
+  position: relative;
+  font-size: 17px;
+  border-radius: 3rem;
+  font-weight: 700;
+  border: 2px solid #6d8b33;
+}
+
+.container-fluid .navbar-button a:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.86, 0, 0.09, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.09, 1);
+}
+
+.container-fluid .navbar-button a:hover {
+  text-decoration: none;
+  color: #334b35;
+  background: #ffb902;
+  border: 2px solid #ffb902;
+}
+
+.container-fluid .navbar-button a:hover:before {
+  width: 100%;
+}
+
+li a {
+  color: #6d8b33;
+}
+
+li:hover,
+li:focus-within {
+  cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  padding-top: 50%;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.menueffect {
+  text-align: center;
+}
+
+.menueffect * {
+  box-sizing: border-box;
+}
+
+.menueffect li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+
+.menueffect a {
+  padding: 0.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+
+.menueffect a:before,
+.menueffect a:after {
+  position: absolute;
+  transition: all 0.35s ease;
+}
+
+.menueffect a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: white;
+}
+
+.menueffect a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+
+.menueffect a:hover:before,
+.menueffect .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+
+.menueffect a:hover:after,
+.menueffect .current a:after {
+  max-width: 100%;
+}
+
+.menueffect {
+  text-align: center;
+}
+
+.menueffect * {
+  box-sizing: border-box;
+}
+
+.menueffect li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+
+.menueffect a {
+  padding: 0.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+
+.menueffect a:before,
+.menueffect a:after {
+  position: absolute;
+  transition: all 0.35s ease;
+}
+
+.menueffect a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #FEBA02;
+}
+
+.menueffect a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+
+.menueffect a:hover:before,
+.menueffect .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+
+.menueffect a:hover:after,
+.menueffect .current a:after {
+  max-width: 100%;
+}/*# sourceMappingURL=navbar.css.map */
